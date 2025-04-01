@@ -1,1 +1,48 @@
+body{
+    background-color:antiquewhite
+}
+header{
+    height: 125px;
+}
+h1{
+    text-align: center;
+    font-family: cursive, serif, "Times New Roman";    
+}
+h2{
+    text-align: center;
+    font-family: cursive, serif, "Times New Roman";
+}
+hr{
+    border:2px solid black;
+    border-radius: 25%;
+}
+article{
+    padding-top: 3rem;
+}
+q{
+font-style: italic;
+}
+img{
+    width: 35%
+}
+#float_right{
+float: right;
 
+height:500px;
+width: auto;
+margin-top: 20rem;
+margin-right: 13rem;
+}
+#check{
+    list-style: ;
+}
+ul{
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
