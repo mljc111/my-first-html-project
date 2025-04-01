@@ -40,7 +40,7 @@ ul{
     align-items: center;
     padding-bottom: 15rem;
 }
-li{
+.plain {
     list-style: none;
 }
 .grid{
