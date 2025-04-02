@@ -102,6 +102,7 @@ ul li{
 }
 footer{
     display: inline;
+    padding-top: 10px;
 }
 span{
     margin-right: 10px;
