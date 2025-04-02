@@ -60,7 +60,7 @@ img{
 }
 #check{
     list-style:none;
-    display:flexbox;
+    display:grid;
     justify-content: space-around;
 }
 /*add cssfor list and floating image*/
