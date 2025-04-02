@@ -88,6 +88,9 @@ ul{
     align-items: center;
     padding-bottom: 20px;
 }
+ol{
+    padding-bottom: 25px;
+}
 ul.list li{
     line-height: 1.5;
 }
