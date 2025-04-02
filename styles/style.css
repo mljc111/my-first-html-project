@@ -63,7 +63,6 @@ img{
     display:grid;
     justify-content: space-around;
 }
-/*add cssfor list and floating image*/
 .container{
     display: flex;
     justify-content: flex-end;
@@ -84,10 +83,6 @@ img{
 .list li{
     margin:5px;
 }
-/*.flex{
-    display:flexbox;
-    justify-content: space-around;
-}*/
 ul{
     align-items: center;
     padding-bottom: 20px;
