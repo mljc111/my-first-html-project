@@ -1,8 +1,35 @@
 body{
-    background-color:antiquewhite
+    background-color:antiquewhite;
+    font-family:  cursive, serif, "Times New Roman";
+    font-size: 120%;
 }
+.container{
+    width: 200px;
+       height: 200px;
+       position: relative;
+    }
+    .tag {
+       float: left;
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: 1000;
+       background-color: rgb(220, 168, 105);
+       padding: 5px;
+       color: black;
+       font-weight: bold;
+    }
 header{
     height: 125px;
+}
+.floater{
+    float: left;
+    max-width: 200px;
+    height: auto;
+}.floatr{
+    float:right;
+    max-width: 200px;
+    height: auto;
 }
 h1{
     text-align: center;
@@ -23,27 +50,68 @@ q{
 font-style: italic;
 }
 img{
-    width: 35%
+   width:35%
 }
-#float_right{
-float: right;
-
-height:500px;
-width: auto;
-margin-top: 20rem;
-margin-right: 13rem;
+#wine{
+ width:auto;
+    height:auto;
+    align-content: ;
+    justify-content: right;
+    padding-right: 10px;
 }
 #check{
-    list-style: ;
+    list-style:none;
+    display:flexbox;
+    justify-content: space-around;
 }
+/*add cssfor list and floating image*/
+.container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+}
+#wine{
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+.list{
+    display: grid;
+    list-style-type: none;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin:0;
+}
+.list li{
+    margin:5px;
+}
+/*.flex{
+    display:flexbox;
+    justify-content: space-around;
+}*/
 ul{
     align-items: center;
-    padding-bottom: 15rem;
+    padding-bottom: 20px;
 }
-.plain {
+ul.list li{
+    line-height: 1.5;
+}
+ul li{
     list-style: none;
 }
 .grid{
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
+    justify-items: left right;
+    column-gap: 5rem;
+}
+footer{
+    display: inline;
+}
+span{
+    margin-right: 10px;
+}
+.float{
+    float: left;
 }
